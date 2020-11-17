@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Message</title>
+    <link rel="stylesheet" href="../assets/bootstrap.css">
+    <style>
+        .body-chat {
+            height: 85vh;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Room Chat</div>
+                </div>
+                <div id="contentChat" class="card-body body-chat text-white">
+                </div>
+                <div class="card-footer">
+                    <div class="form-row">
+                        <div class="col-9 col-md-11">
+                            <input type="text" id="textMsg" class="form-control">
+                        </div>
+                        <div class="col-1 col-md-1">
+                            <button type="button" id="btnSend" class="btn btn-primary">Kirim</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./chat.js"></script>
+</body>
+</html>

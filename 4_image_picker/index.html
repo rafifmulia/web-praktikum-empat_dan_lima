@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <link rel="stylesheet" href="../assets/bootstrap.css">
+    <style>
+        .body-chat {
+            height: 85vh;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Image Picker</div>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <select id="pickImage" class="form-control">
+                            <option value="0">-- Pilih Gambar --</option>
+                            <option value="1">ASUS ROG</option>
+                            <option value="2">Poco X3</option>
+                            <option value="3">Realme Lamborghini</option>
+                            <option value="4">Monitor Curved</option>
+                            <option value="5">PC RGB</option>
+                            <option value="6">PS5</option>
+                        </select>
+                    </div>
+                    <div id="contentImg" class="form-group">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./image_picker.js"></script>
+</body>
+</html>

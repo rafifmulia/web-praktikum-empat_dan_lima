@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Rupiah</title>
+    <link rel="stylesheet" href="../assets/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Kurs Rupiah - Mata Uang Asing</div>
+                </div>
+                <div class="card-body">
+                    <form action="#" class="p-3">
+                        <div class="form-row">
+                            <div class="col-4"><label>Nilai Mata Uang Asing</label></div>
+                            <div class="col-4"><label>Mata Uang</label></div>
+                            <div class="col-4"><label>Nilai Rupiah</label></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-4"><input type="number" id="uangAsing" class="form-control" value="0"></div>
+                            <div class="col-4">
+                                <select id="uangType" class="form-control">
+                                    <option value="0">-- Pilih Mata Uang --</option>
+                                    <option value="1">Dollar US</option>
+                                    <option value="2">Dollar Singapore</option>
+                                    <option value="3">Ringgit Malaysia</option>
+                                    <option value="4">Yen Jepan</option>
+                                    <option value="5">Euro</option>
+                                    <option value="6">Riyal Arab Saudi</option>
+                                </select>
+                            </div>
+                            <div class="col-4"><input type="text" id="uangRupiah" class="form-control" readonly></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./convert.js"></script>
+</body>
+</html>
